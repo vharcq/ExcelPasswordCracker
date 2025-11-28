@@ -18,6 +18,16 @@ Brute-force is not the most efficient algorithm out there, so keep in mind that 
 - ```java -cp target/ExcelPasswordCracker-jar-with-dependencies.jar MainSeclists```
 - The program stop when the password is found
 
+## Seclists
+
+You can either ```apt-get install seclists``` on Kali and then found several files under ```/usr/share/seclists/Passwords```
+
+Or
+
+git clone https://github.com/danielmiessler/SecLists and found files under ```/Passwords/Common-Credentials```
+
+The xnato 10 millions files worked fine in my case
+
 
 ## Todo
 - [ ] Save decrypted file
